@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #fed88f;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container {
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    h1 {
+        text-align: center;
+    }
+}
+
+.imgcontainter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+   
+.imgholder1 {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 50%;   
+}
+
+.port {
+    width: 1000px;
+    margin: 0 auto;
+    h1 { text-align: center;
+    }
+}
+
+.artistcontainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 2em;
+    margin-bottom: 2em;
+   
+}
+
+.artistinfo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
