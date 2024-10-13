@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fed88f;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ee2a7b;
+        stroke: #ee2a7b;
+        stroke-width: .5px;
+      }
+
+      .cls-4 {
+        fill: #bfe2ca;
+      }
+
+      .cls-5 {
+        fill: salmon;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <path class="cls-5" d="M25.44,20.04h29.84s6.22,38.55,0,39.48-28.29,0-28.29,0l-1.55-39.48Z"/>
+      <path class="cls-2" d="M76.76,24.19"/>
+      <path class="cls-1" d="M18.8,14.18h29.84s6.22,38.55,0,39.48-28.29,0-28.29,0l-1.55-39.48Z"/>
+      <path class="cls-2" d="M30.09,25.95"/>
+      <line class="cls-2" x1="42.92" y1="26.95" x2="42.92" y2="31.36"/>
+      <path class="cls-2" d="M25.44,35.31"/>
+      <path class="cls-6" d="M31.24,32.82s5.48,5.86,9.66,0"/>
+      <line class="cls-2" x1="29.16" y1="26.95" x2="29.16" y2="31.36"/>
+      <ellipse class="cls-3" cx="25.01" cy="32.39" rx=".93" ry=".43"/>
+      <ellipse class="cls-3" cx="46.19" cy="32.39" rx=".93" ry=".43"/>
+      <rect class="cls-4" x="14.86" y="13.59" width="5.01" height="41.1"/>
+    </g>
+  </g>
+</svg>

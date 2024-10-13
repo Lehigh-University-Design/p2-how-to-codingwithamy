@@ -1,6 +1,17 @@
-body {
-    margin: 0;
-    padding: 0;
+h3{
+  font-family: "Afacad Flux";
+}
+
+p{
+  font-family: "Afacad Flux";
+}
+
+h2{
+  font-family: "Afacad Flux";
+}
+
+h1{
+  font-family: "Afacad Flux";
 }
 
 .nav{
@@ -10,7 +21,21 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    
+}
+
+#logo {
+  height: 3em;
+  width: auto;
+  float: left;
+  margin-right: .5em;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--body-color);
+  font-weight: bold;
 }
 
 .container {
@@ -104,6 +129,14 @@ body {
     margin: 0 auto;
     h1 { text-align: center;
     }
+    h2 { text-align: center;
+    }
+}
+
+.port img {
+  align-items: center;
+  align-content: center;
+  margin-left: 5%;
 }
 
 .artistcontainer {
@@ -120,4 +153,15 @@ body {
     height: auto;
 }
 
+.how-to-container{
+  display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 2em;
+    margin-bottom: 2em;
+}
 
+.how-to-info img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
