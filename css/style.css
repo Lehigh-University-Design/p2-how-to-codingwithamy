@@ -94,11 +94,7 @@ h1{
   margin-left: 5%;
 }
 
-.howimg{
-  display: block;
-  width: 10%;
-  height: auto;
-}
+
 
 .artistcontainer {
     display: grid;
@@ -125,4 +121,20 @@ h1{
   display: block;
   width: 80%;
   height: auto;
+}
+
+.tutorialcontainer{
+    padding-left: 7em;
+    padding-right: 7em;
+    h1 { text-align: center;
+    }
+    h2 { text-align: center;
+    }
+}
+
+.tutorialcontainer img{
+  align-content: center;
+  padding-left: 5%;
+  width: 90%;
+
 }
