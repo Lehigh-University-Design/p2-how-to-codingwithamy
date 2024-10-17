@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
 </head>
 <style>
     body{
@@ -32,14 +38,10 @@
     <div class = "container">
 
         <div id="slider">
-            <a href="#" class="control_next" >></a>
-            <a href="#" class="control_prev"><</a>
-            <ul>
-              <li><img src="images/finished.jpg"></li>
-              <li><img src="images/grocery1.jpg"></li>
-              <li><img src="images/drawing1.JPG"></li>              
-            </ul>  
-        </div>
+            <div><img src="images/finished.jpg"></div>
+            <div><img src="images/grocery1.jpg"></div>
+            <div><img src="images/drawing1.JPG"></div>
+          </div>
           
 
         <div class = "imgcontainter" ></div>
@@ -52,7 +54,11 @@
 
     
             
-        
+    <script>
+        $(document).ready(function(){
+        $('#slider').slick();
+        });
+    </script>
         
     
 </body>
